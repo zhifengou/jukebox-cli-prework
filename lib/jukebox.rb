@@ -34,6 +34,7 @@ def play(songs)
     boolean=true
   elsif input.to_i==index+1
     puts "Playing #{songs[index]}"
+    boolean=true
   end
 end
     if boolean=false
