@@ -37,7 +37,7 @@ def play(songs)
     boolean=true
   end
 end
-    if boolean=false
+    if boolean==false
       puts "Invalid input, please try again"
     end
 end
