@@ -42,3 +42,4 @@ end
     end
 end
 
+def exit_jukebox
