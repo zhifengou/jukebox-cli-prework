@@ -25,7 +25,7 @@ def list(songs)
 end
   
 def play(songs)
-  # puts "Please enter a song name or number:"
+  puts "Please enter a song name or number:"
   input=gets.chomp
   boolean=false
   songs.each_with_index do |value,index|
